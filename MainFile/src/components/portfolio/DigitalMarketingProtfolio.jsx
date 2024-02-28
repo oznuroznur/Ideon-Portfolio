@@ -25,8 +25,7 @@ const DigitalMarketingProtfolio = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">
-                  Featured <br />
-                  Work
+                  Portföy
                 </h2>
               </div>
             </div>
@@ -54,7 +53,7 @@ const DigitalMarketingProtfolio = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/service-details">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          FOOD <span>ION</span> 
                         </h3>
                         <Image
                           priority
@@ -70,7 +69,7 @@ const DigitalMarketingProtfolio = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/service-details">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          NY<span>ON</span> 
                         </h3>
                         <Image
                           priority
@@ -82,7 +81,7 @@ const DigitalMarketingProtfolio = () => {
                       </Link>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                {/*   <SwiperSlide>
                     <div className="portfolio__slide-3">
                       <Link href="/service-details">
                         <h3 className="portfolio__title-3">
@@ -97,8 +96,8 @@ const DigitalMarketingProtfolio = () => {
                         />
                       </Link>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
+                  </SwiperSlide> */}
+               {/*    <SwiperSlide>
                     <div className="portfolio__slide-3">
                       <Link href="/service-details">
                         <h3 className="portfolio__title-3">
@@ -113,7 +112,7 @@ const DigitalMarketingProtfolio = () => {
                         />
                       </Link>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </div>
 
                 <div className="swiper-pagination"></div>

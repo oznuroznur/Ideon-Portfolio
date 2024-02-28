@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
+import Hero31 from "../../../public/assets/imgs/icon/ideonkısa.jpg";
 import Image from "next/image.js";
 
 const DigitalMarketingHero = () => {
@@ -75,7 +75,7 @@ const DigitalMarketingHero = () => {
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Digital</h2>
+                  <h2 className="sec-sub-title">Yenilikçi Çözümler, Sınırsız Potansiyel</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
                    Ideas 
                   </h3>
@@ -85,9 +85,7 @@ const DigitalMarketingHero = () => {
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-                    Static and dynamic secure code review can prevent a day
-                    before your product is even released. We can integrate with
-                    your dev environment v
+                  Dijital dünyada öne çıkmak için doğru adrestesiniz. Mobil uygulamalarımız ve web çözümlerimizle işinizi geliştiriyor, sizi rakiplerinizin önüne taşıyoruz.  
                   </p>
                 </div>
                 <div className="scroll-down">
@@ -115,18 +113,18 @@ const DigitalMarketingHero = () => {
               />
               <div className="intro-title">
                 <h4 className="video-title" ref={videoTitle}>
-                  Watch <span>video intro</span>
+                  Videoyu <span>İzle</span>
                 </h4>
                 <h4
                   className="video-title close-video-title"
                   ref={videoCloseSection}
                 >
-                  Close <span>video intro</span>
+                  Videoyu <span>Kapat</span>
                 </h4>
               </div>
               <div className="video">
                 <video
-                  src="assets/video/hero-3.mp4"
+                  src="assets/video/ideonVid.mp4"
                   loop
                   muted
                   autoPlay

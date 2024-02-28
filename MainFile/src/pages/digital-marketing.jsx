@@ -22,12 +22,12 @@ export default function DigitalMarketing() {
         <RootLayout header="header1" footer="footer1">
           <DigitalMarketingHero />
           <DigitalMarketingBrand />
-         {/*  <DigitalMarketingAbout /> */}
-         {/*  <DigitalMarketingService /> */}
-        {/*   <DigitalMarketingProtfolio /> */}
-          <DigitalMarketingTestimonial />
+          <DigitalMarketingAbout />
+          <DigitalMarketingService />
+          <DigitalMarketingProtfolio />
+          {/* <DigitalMarketingTestimonial /> */}
           <DigitalMarketingWorkflow />
-          <DigitalMarketingPrice />
+         {/*  <DigitalMarketingPrice /> */}
           <DigitalMarketingBlog />
         </RootLayout>
       </main>
