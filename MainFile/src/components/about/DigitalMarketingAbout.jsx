@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "@/plugins";
 import Link from "next/link.js";
-import About31 from "../../../public/assets/imgs/about/3/1.jpg";
+import About31 from "../../../public/assets/imgs/about/3/ideon5502.png";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollSmoother);
@@ -43,27 +43,27 @@ const DigitalMarketingAbout = () => {
 
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Who We Are</h2>
+                <h2 className="sec-sub-title title-anim">HAKKIMIZDA</h2>
                 <h3 className="sec-title title-anim">
-                  We are leading digital marketing agency.
+                 Dijital Dünyada Güvenilir Çözüm Ortağınız
                 </h3>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
                   <p>
-                    We’re a team of strategic mdigital marketing working
-                    globally with largest brands, We believe that progress only
-                    happens when you refused to play things safe. We combine
-                    ideas and behaviors, and insights with design, technological
-                    data to produce brand experiences that customers love our
-                    services.
+                    İdeon, dijital dünyada başarıya giden yolda rehberinizdir.
+                    Yaratıcı çözümlerimiz ve deneyimli ekibimizle,
+                    müşterilerimize en iyi hizmeti sunmayı hedefliyoruz. Her
+                    projede tutkuyla çalışıyor, markaların dijital varlıklarını
+                    güçlendiriyoruz. İşte İdeon ile tanışın, dijital dönüşüm
+                    yolculuğunuzda yanınızda olduğumuzu görün!
                   </p>
                   <div className="btn_wrapper">
                     <Link
                       className="wc-btn-light btn-hover btn-item"
                       href="/about"
                     >
-                      <span></span> Explore Us{" "}
+                      <span></span>İletişime Geçin{" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
                   </div>

@@ -83,15 +83,20 @@ const DigitalMarketingService = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper pt-130 text-anim">
-                <h2 className="sec-sub-title title-anim">Services</h2>
+                <h2 className="sec-sub-title title-anim">Portföy</h2>
                 <h3 className="sec-title title-anim">
-                  Our marketing <br /> Services
+                  Sektörel <br /> Portfolyomuz
                 </h3>
                 <p>
-                  Consumers today rely heavily on digital means to research
-                  products. We research a brand of bldend engaging with it,
-                  according to the meanwhile, 51% of consumers say they use
-                  Google to research products before buying.
+                  İdeon olarak, çeşitli sektörlerden müşterilere sunduğumuz
+                  çözümlerle gurur duyuyoruz. E-ticaretten sağlık sektörüne,
+                  finanstan eğitim alanına kadar geniş bir yelpazede projeler
+                  gerçekleştirdik. Her bir projede, müşterilerimizin
+                  ihtiyaçlarını anlamak ve sektörel dinamiklere uygun çözümler
+                  sunmak için titizlikle çalıştık. Sektörel portfolyomuz,
+                  başarılı işbirliklerimizin bir yansımasıdır ve gelecekte de
+                  farklı sektörlerde daha pek çok projeye imza atmaya hazırız.
+                  Sizin için değişen ve gelişen her sektörde yanınızdayız.
                 </p>
               </div>
             </div>
@@ -102,29 +107,32 @@ const DigitalMarketingService = () => {
               <div className="service__list-3" ref={serviceList}>
                 <div className="service__item-3 service_animation">
                   <h3>
-                    <Link href="/service-details" className="service__title-3">
-                      Search Engine <br />
-                      Optimization
+                    <Link href="/" className="service__title-3 ">
+                    Web ve <br/>
+                    Mobil Uygulama
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                    Domain, hosting, SSL gibi temel ihtiyaçlarınızdan başlayarak hızlı teslim web siteleri, mobil uygulama geliştirme, sanal sunucu çözümleri ve Microsoft Office gibi kurumsal yazılımlara kadar geniş bir yelpazede hizmet sunuyoruz.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Hızlı Teslim Web Sitesi ve Mobil Uygulama</li>
+                      <li>+ Full-Stack Development</li>
+                      <li>+ Domain, Hosting; Bireysel, Kurumsal</li>
+                      <li>+ SSL</li>
+                      <li>+ Sanal Sunucu; Cloud, Vps, Vds</li>
+                      <li>+ E-Ticaret</li>
+                      <li>+ Özel ve Web Yazılımlar</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/"
                         className="wc-btn-black btn-hover btn-item"
                       >
-                        <span></span> Details
+                        <span></span> İletişime Geçin
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -133,22 +141,60 @@ const DigitalMarketingService = () => {
                   <div
                     className="service__hover-3"
                     style={{
-                      backgroundImage: "url(assets/imgs/service/3/1.jpg)",
+                      backgroundImage: "url(assets/imgs/about/3/ideon550.png)",
                     }}
                   ></div>
                 </div>
+                
 
+                <div className="service__item-3 service_animation">
+                  <h3 className="">
+                    <Link href="/" className="service__title-3">
+                    Grafik ve Tasarım
+                    </Link>
+                  </h3>
+                  <div className="service__content-3">
+                    <p>
+                    Kurumsal kimlik, UX/UI tasarımı, logo, menü ve video animasyonları gibi geniş bir yelpazede hizmet sunuyoruz. Ayrıca, markalaşma ve ürün tasarımı konularında da uzmanız. Sunumlarınızı ve infografiklerinizi görsel olarak güçlendiriyoruz. 
+                    </p>
+                    <ul className="">
+                      <li>+ UX / UI</li>
+                      <li>+  Logo</li>
+                      <li>+ Menü</li>
+                      <li>+ Video Animasyon</li>
+                      <li>+ Sunum ve İnfografik</li>
+                    </ul>
+                  </div>
+                  <div className="service__btn-3">
+                    <div className="btn_wrapper">
+                      <Link
+                        href="/"
+                        className="wc-btn-black btn-hover btn-item"
+                      >
+                        <span></span> İletişime Geçin
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div
+                    className="service__hover-3"
+                    style={{
+                      backgroundImage: "url(assets/imgs/about/3/ideon550.png)",
+                    }}
+                  ></div>
+                </div>
                 <div className="service__item-3 service_animation">
                   <h3>
-                    <Link href="/service-details" className="service__title-3 ">
-                      Email <br />
-                      Marketing
+                    <Link href="/" className="service__title-3">
+                      Arama Motoru <br/>
+                      Optimizasyonu <br/>
+                      (SEO)
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                    SEO stratejilerimizle web sitenizi üst sıralara taşıyoruz! Hedef kitlenizin dikkatini çekin, daha fazla ziyaretçi ve müşteri kazanın.
                     </p>
                     <ul className="">
                       <li>+ Logo Design</li>
@@ -159,10 +205,10 @@ const DigitalMarketingService = () => {
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/"
                         className="wc-btn-black btn-hover btn-item"
                       >
-                        <span></span> Details
+                        <span></span> İletişime Geçin
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -171,37 +217,37 @@ const DigitalMarketingService = () => {
                   <div
                     className="service__hover-3"
                     style={{
-                      backgroundImage: "url(assets/imgs/service/3/2.png)",
+                      backgroundImage: "url(assets/imgs/about/3/ideon550.png)",
                     }}
                   ></div>
                 </div>
 
                 <div className="service__item-3 service_animation">
                   <h3 className="">
-                    <Link href="/service-details" className="service__title-3">
-                      COntent
+                    <Link href="/" className="service__title-3">
+                    Bakım Altyapı 
                       <br />
-                      Marketing
+                      Teknik Destek
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                    Altyapınızı güçlendirin! Sunucu, veri depolama, güvenlik ve network çözümleriyle size destek oluyoruz.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Sunucu Çözümleri</li>
+                      <li>+ Veri Depolama ve Yedekleme Çözümleri</li>
+                      <li>+ Network Çözümleri</li>
+                      <li>+ Güvenlik Çözümleri</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/"
                         className="wc-btn-black btn-hover btn-item"
                       >
-                        <span></span> Details
+                        <span></span> İletişime Geçin
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -210,46 +256,7 @@ const DigitalMarketingService = () => {
                   <div
                     className="service__hover-3"
                     style={{
-                      backgroundImage: "url(assets/imgs/service/3/3.png)",
-                    }}
-                  ></div>
-                </div>
-
-                <div className="service__item-3 service_animation">
-                  <h3 className="">
-                    <Link href="/service-details" className="service__title-3">
-                      Social
-                      <br />
-                      Marketing
-                    </Link>
-                  </h3>
-                  <div className="service__content-3">
-                    <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p>
-                    <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
-                    </ul>
-                  </div>
-                  <div className="service__btn-3">
-                    <div className="btn_wrapper">
-                      <Link
-                        href="/service-details"
-                        className="wc-btn-black btn-hover btn-item"
-                      >
-                        <span></span> Details
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </Link>
-                    </div>
-                  </div>
-
-                  <div
-                    className="service__hover-3"
-                    style={{
-                      backgroundImage: "url(assets/imgs/service/3/4.png)",
+                      backgroundImage: "url(assets/imgs/about/3/ideon550.png)",
                     }}
                   ></div>
                 </div>

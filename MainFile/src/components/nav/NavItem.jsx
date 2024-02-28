@@ -43,8 +43,8 @@ export default function NavItem({ nav, navStyle = "" }) {
               return (
                 <li className="has-megamenu" key={i}>
                   <Link href={el.link}>{el.nav_name}</Link>
-                  <ul className={el.full_width ? "mega-menu" : "mega-menu-2"}>
-                    {el.sub_nav.map((subEl, index) => {
+                 {/* <ul className={el.full_width ? "mega-menu" : "mega-menu-2"}>
+                     {el.sub_nav.map((subEl, index) => {
                       return (
                         <li key={index}>
                           <div className="menu-heading">{subEl.title}</div>
@@ -59,8 +59,8 @@ export default function NavItem({ nav, navStyle = "" }) {
                           </ul>
                         </li>
                       );
-                    })}
-                  </ul>
+                    })} 
+                  </ul>*/}
                 </li>
               );
             } else if (el.type === "dropdown") {

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/brand/1.png";
-import Brand2 from "../../../public/assets/imgs/brand/2.png";
-import Brand3 from "../../../public/assets/imgs/brand/3.png";
+import Brand1 from "../../../public/assets/imgs/brand/royalcert.png";
+import Brand2 from "../../../public/assets/imgs/brand/durko.png";
+import Brand3 from "../../../public/assets/imgs/brand/nicon.png";
 import Brand4 from "../../../public/assets/imgs/brand/4.png";
 import Brand5 from "../../../public/assets/imgs/brand/5.png";
 import Brand6 from "../../../public/assets/imgs/brand/6.png";
@@ -63,7 +63,7 @@ const DigitalMarketingBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <h2 className="brand__title-3 title-anim">
-                We worked with global largest brands
+              Küresel ölçekteki büyük markalarla çalıştık
               </h2>
               <div className="brand__list-3">
                 <div className="brand__item-2 fade_bottom">
@@ -89,7 +89,7 @@ const DigitalMarketingBrand = () => {
                     priority
                     width={114}
                     height={64}
-                    src={Brand3}
+                    src={Brand1}
                     alt="Brand Logo"
                   />
                 </div>
@@ -98,7 +98,7 @@ const DigitalMarketingBrand = () => {
                     priority
                     width={82}
                     height={70}
-                    src={Brand4}
+                    src={Brand2}
                     alt="Brand Logo"
                   />
                 </div>
@@ -107,7 +107,7 @@ const DigitalMarketingBrand = () => {
                     priority
                     width={115}
                     height={67}
-                    src={Brand5}
+                    src={Brand1}
                     alt="Brand Logo"
                   />
                 </div>
@@ -116,7 +116,7 @@ const DigitalMarketingBrand = () => {
                     priority
                     width={121}
                     height={63}
-                    src={Brand6}
+                    src={Brand2}
                     alt="Brand Logo"
                   />
                 </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import LogoWhite2 from "../../../public/assets/imgs/logo/ideon.png";
-import LogoBlack from "../../../public/assets/imgs/logo/ideon.png";
+import LogoWhite2 from "../../../public/assets/imgs/logo/ideonLogo.png";
+import LogoBlack from "../../../public/assets/imgs/logo/ideonLogo.png";
 import Image from "next/image";
 
 export default function LogoItem() {
