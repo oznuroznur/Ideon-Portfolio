@@ -87,7 +87,7 @@ const DigitalMarketingHero = () => {
                   <p className="hero__text-animation" ref={heroTextAnim}>
                     Static and dynamic secure code review can prevent a day
                     before your product is even released. We can integrate with
-                    your dev environment
+                    your dev environment v
                   </p>
                 </div>
                 <div className="scroll-down">
